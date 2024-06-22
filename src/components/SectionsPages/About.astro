@@ -1,0 +1,9 @@
+---
+import CustomSection from "@/components/CustomSection.astro";
+import { basics } from "@cv";
+const { summary } = basics;
+---
+
+<CustomSection title="About me">
+  <p>{summary}</p>
+</CustomSection>
