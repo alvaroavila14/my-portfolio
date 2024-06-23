@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alvaro José Avila",
-    "label": "Full Stack Developer con amplia experiencia en crear soluciones de alta calidad, especializado en React, Angular, Node, y Laravel.",
+    "label": "Desarrollador Full Stack con amplia experiencia en crear soluciones de alta calidad, especializado en React, Angular, Node, y Laravel.",
     "image": "https://avatars.githubusercontent.com/u/39819276?v=4",
     "email": "avilaalvaro14@gmail.com",
     "phone": "+5493884378516",
@@ -186,6 +186,11 @@
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
+      "name": "Linux",
+      "level": "Avanzado",
+      "keywords": ["S.O, Linux Enthusiast"]
+    },
+    {
       "name": "Docker",
       "level": "Avanzado",
       "keywords": ["Contenerización"]
@@ -221,25 +226,25 @@
   ],
   "projects": [
     {
-      "name": "Talenix Academy",
+      "name": "Talenix",
       "description": "Plataforma multi-instancia para agilizar el proceso de inducción en empresas clientes, con tareas y exámenes.",
       "highlights": ["React", "Redux", "Material UI"],
       "url": "https://openix.tech/"
     },
     {
-      "name": "Onboarding Platform",
+      "name": "Plataforma de Onboarding",
       "description": "Custom Product hecho para la empresa Jobint destinada a gestionar el proceso de onboarding.",
       "highlights": ["React", "Redux", "Material UI"],
       "url": "https://openix.tech/"
     },
     {
-      "name": "Survey Module",
+      "name": "Módulo de Encuestas IMD",
       "description": "Módulo de encuestas accesible a través de la web para recopilar datos y obtener información.",
       "highlights": ["Nest.JS", "TypeORM", "PostgreSQL"],
       "url": "https://openix.tech/"
     },
     {
-      "name": "OPF Training App",
+      "name": "Sistema OPF",
       "description": "Aplicación para la gestión y capacitación del personal de la empresa, con emisión de certificados y control de avances.",
       "highlights": [
         "React",
@@ -251,7 +256,7 @@
       "url": "https://openix.tech/"
     },
     {
-      "name": "Police Reporting System",
+      "name": "Sistema de reportes de la Policía",
       "description": "Aplicación web para que los efectivos policiales registren las novedades de sus turnos de manera eficiente.",
       "highlights": [
         "Angular",
@@ -263,7 +268,7 @@
       "url": "https://seguridad.jujuy.gob.ar/"
     },
     {
-      "name": "Online Police Procedure System",
+      "name": "Sistema de trámites online de la Policía",
       "description": "Implementación de nuevas funcionalidades y mejoras en el Sistema de Gestión de Trámites de la Policía de Jujuy.",
       "highlights": [
         "Angular",
