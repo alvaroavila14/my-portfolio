@@ -1,76 +1,60 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Alvaro José Avila",
+    "label": "Full Stack Developer con amplia experiencia en crear soluciones de alta calidad, especializado en React, Angular, Node, y Laravel.",
     "image": "https://avatars.githubusercontent.com/u/39819276?v=4",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
+    "email": "avilaalvaro14@gmail.com",
+    "phone": "+5493884378516",
     "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "summary": "Desarrollador Full Stack con experiencia en frontend (React, Angular) y backend (Nest, Node, Laravel, PHP). He trabajado en diversos entornos, desde start-ups hasta equipos multinacionales, utilizando herramientas como Git, Jira, Docker, AWS y Linux. Comprometido con la calidad y la excelencia, disfruto colaborando en equipos multidisciplinarios y comunicándome efectivamente. Busco seguir desarrollándome en roles de liderazgo y lograr resultados excepcionales.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Peña Colorada 711",
+      "postalCode": "4600",
+      "city": "San Salvador de Jujuy",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
     "profiles": [
       {
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      },
-      {
         "network": "Github",
-        "username": "john",
-        "url": "https://github.com/john"
+        "username": "alvaroavila14",
+        "url": "https://github.com/alvaroavila14"
       },
       {
         "network": "Linkedin",
-        "username": "john",
-        "url": "https://linkedin.com/john"
+        "username": "alvaroavila14",
+        "url": "https://www.linkedin.com/in/alvaroavila14/"
       }
     ]
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2021-10-05",
-      "endDate": "2022-12-01",
-      "summary": "Description…",
+      "name": "Openix IT Solutions",
+      "position": "Full Stack Developer",
+      "url": "https://openix.tech/",
+      "startDate": "2022-12-01",
+      "endDate": null,
+      "summary": "Desarrollé e implementé soluciones web innovadoras que impactaron positivamente en la empresa. Me destaco por mi capacidad para trabajar tanto en el Frontend como en el Backend, así como por mi disposición y rápida adaptación para integrar tecnologías de vanguardia como la inteligencia artificial.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Company2",
-      "position": "President",
-      "url": "https://company.com",
+      "name": "Ministerio de Seguridad de la Provincia de Jujuy",
+      "position": "Full Stack Developer",
+      "url": "https://seguridad.jujuy.gob.ar/",
       "startDate": "2021-10-05",
       "endDate": "2022-12-01",
-      "summary": "Description…",
+      "summary": "Contribuí al desarrollo y mantenimiento de aplicaciones web críticas para el funcionamiento del Ministerio de Seguridad de mi Provincia. Apliqué mis habilidades para crear e implementar nuevas funcionalidades, mejorando la eficiencia y optimizando los procesos internos. Mi trabajo se caracterizó por una comunicación efectiva con altos cargos y una profunda comprensión de las necesidades de los oficiales.",
       "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+      "institution": "Universidad Nacional de Jujuy",
+      "url": "https://www.unju.edu.ar/",
+      "area": "Analista Programador Universitario",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2019-03-01",
+      "endDate": "2021-12-01",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -102,49 +86,120 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "HTML",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
     },
     {
       "name": "React",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "Angular",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Nest.JS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "CodeIgniter 4",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "PHP", "Servidor"]
     },
     {
       "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "PHP", "Servidor"]
     },
     {
-      "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
     },
     {
-      "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
     },
     {
-      "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
-      "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": ["Contenerización"]
     },
     {
-      "name": "Laravel",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
     }
   ],
   "languages": [
@@ -167,38 +222,58 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "React",
-        "Angular",
-        "Private"
-      ],
-      "url": "https://project.com/"
+      "name": "Talenix Academy",
+      "description": "Plataforma multi-instancia para agilizar el proceso de inducción en empresas clientes, con tareas y exámenes.",
+      "highlights": ["React", "Redux", "Material UI"],
+      "url": "https://openix.tech/"
     },
     {
-      "name": "Another Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "React",
-        "Angular",
-        "Private"
-      ],
-      "url": "https://project.com/"
+      "name": "Onboarding Platform",
+      "description": "Custom Product hecho para la empresa Jobint destinada a gestionar el proceso de onboarding.",
+      "highlights": ["React", "Redux", "Material UI"],
+      "url": "https://openix.tech/"
     },
     {
-      "name": "Third Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016", "React", "Angular"],
-      "url": "https://project.com/"
+      "name": "Survey Module",
+      "description": "Módulo de encuestas accesible a través de la web para recopilar datos y obtener información.",
+      "highlights": ["Nest.JS", "TypeORM", "PostgreSQL"],
+      "url": "https://openix.tech/"
+    },
+    {
+      "name": "OPF Training App",
+      "description": "Aplicación para la gestión y capacitación del personal de la empresa, con emisión de certificados y control de avances.",
+      "highlights": [
+        "React",
+        "Redux",
+        "Context API",
+        "Material UI",
+        "Integración de IA con OpenAI"
+      ],
+      "url": "https://openix.tech/"
+    },
+    {
+      "name": "Police Reporting System",
+      "description": "Aplicación web para que los efectivos policiales registren las novedades de sus turnos de manera eficiente.",
+      "highlights": [
+        "Angular",
+        "Laravel",
+        "Bootstrap",
+        "Desarrollado con Angular y Laravel",
+        "Reducción del tiempo de registro en más del 50%"
+      ],
+      "url": "https://seguridad.jujuy.gob.ar/"
+    },
+    {
+      "name": "Online Police Procedure System",
+      "description": "Implementación de nuevas funcionalidades y mejoras en el Sistema de Gestión de Trámites de la Policía de Jujuy.",
+      "highlights": [
+        "Angular",
+        "Laravel",
+        "Bootstrap",
+        "Garantía de estabilidad y funcionalidad continua",
+        "Mejoras a pedido de los oficiales"
+      ],
+      "url": "https://tramites.seguridad.jujuy.gob.ar/tramite"
     }
   ]
 }

@@ -1,5 +1,65 @@
 ---
 import CustomSection from "@/components/CustomSection.astro";
+import { education } from "@cv";
 ---
 
-<CustomSection title="Education" />
+<CustomSection title="Educación">
+  <ul>
+    {
+      education.map(({ institution, startDate, endDate, area }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const years = `${startYear} - ${endYear}`;
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{institution}</h3>
+                </div>
+
+                <time>{years}</time>
+              </header>
+
+              <footer>
+                <p>{area}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</CustomSection>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    color: #111;
+    font-weight: 500;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #666;
+    font-size: 0.85rem;
+  }
+</style>

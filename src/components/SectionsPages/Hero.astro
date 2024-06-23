@@ -35,51 +35,50 @@ const infoToPrint = [email, phone, linkedinUrl].filter(Boolean).join(" • ");
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span><WorldMap /> {city}, {region}</span>
-      <footer>
-        <div class="print">
-          {infoToPrint}
-        </div>
-        <div class="no-print">
-          {
-            email && (
+      <footer class="print">
+        {infoToPrint}
+      </footer>
+      <footer class="no-print">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
               <a
-                href={`mailto:${email}`}
-                title={`Send an email to ${name} at ${email}`}
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Mail />
+                <Icon />
               </a>
-            )
-          }
-          {
-            phone && (
-              <a
-                href={`tel:${phone}`}
-                title={`Call ${name} at ${phone}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Phone />
-              </a>
-            )
-          }
-          {
-            profiles.map(({ network, url, username }) => {
-              const Icon = SOCIAL_ICONS[network];
-              return (
-                <a
-                  href={url}
-                  title={`${name} on ${network}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Icon />
-                </a>
-              );
-            })
-          }
-        </div>
+            );
+          })
+        }
       </footer>
     </div>
     <figure>
@@ -124,7 +123,7 @@ const infoToPrint = [email, phone, linkedinUrl].filter(Boolean).join(" • ");
 
   span {
     color: #666;
-    display: "flex";
+    display: flex;
     align-items: center;
     gap: 0.25rem;
     font-size: 0.85rem;
@@ -132,6 +131,8 @@ const infoToPrint = [email, phone, linkedinUrl].filter(Boolean).join(" • ");
   }
 
   footer {
+    color: #555;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -146,12 +147,39 @@ const infoToPrint = [email, phone, linkedinUrl].filter(Boolean).join(" • ");
     padding: 4px;
     height: 32px;
     width: 32px;
-    border-radius: 8px;
-    transition: all 0.5s ease;
+    border-radius: 6px;
+    transition: all 0.3s ease;
   }
 
   footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
   }
 </style>
