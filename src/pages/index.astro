@@ -7,9 +7,11 @@ import Hero from "@/components/SectionsPages/Hero.astro";
 import Projects from "@/components/SectionsPages/Projects.astro";
 import Skills from "@/components/SectionsPages/Skills.astro";
 import KeyboardHandler from "@/components/KeyboardHandler.astro";
+import { basics } from "@cv";
+const { name, label } = basics;
 ---
 
-<Layout title="Alvaro Avila - Portfolio">
+<Layout title={`Portafolio de ${name} - ${label}`}>
   <main>
     <Hero />
     <About />
@@ -26,5 +28,11 @@ import KeyboardHandler from "@/components/KeyboardHandler.astro";
     padding: 4rem;
     margin: auto;
     width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
   }
 </style>
